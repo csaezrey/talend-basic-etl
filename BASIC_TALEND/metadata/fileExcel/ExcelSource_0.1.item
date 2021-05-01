@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:FileExcelConnection xmi:id="_Cyh90KoKEeuwLdDWVrbYqQ" name="ExcelSource" dataPackage="_CysV4KoKEeuwLdDWVrbYqQ" Server="Localhost 127.0.0.1" FilePath="C:/Users/camilo.saez/Desktop/Git Hub Personal/talend-basic-etl/Sample Files/ExcelSource.xlsx" Encoding="UTF-8" UseHeader="true" HeaderValue="1" FirstLineCaption="true" SheetName="Sheet" firstColumn="1" thousandSeparator="','" decimalSeparator="'.'" selectAllSheets="true" sheetList="Sheet:w&#xA;">
+    <sheetColumns>A</sheetColumns>
+    <sheetColumns>B</sheetColumns>
+    <sheetColumns>C</sheetColumns>
+    <sheetColumns>D</sheetColumns>
+    <sheetColumns>E</sheetColumns>
+  </TalendMetadata:FileExcelConnection>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_CysV4KoKEeuwLdDWVrbYqQ" name="default" dataManager="_Cyh90KoKEeuwLdDWVrbYqQ">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_CysV4aoKEeuwLdDWVrbYqQ" id="_QH68gKoIEeuwLdDWVrbYqQ" label="ExcelMetadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_CysV4qoKEeuwLdDWVrbYqQ" label="Server" length="8" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_CysV46oKEeuwLdDWVrbYqQ" label="Device_ID" length="2" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_CysV5KoKEeuwLdDWVrbYqQ" label="Total_Space__GB_" length="3" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_CysV5aoKEeuwLdDWVrbYqQ" label="Free_Space__GB_" length="3" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_CysV5qoKEeuwLdDWVrbYqQ" label="Used_Space__GB_" length="2" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>
